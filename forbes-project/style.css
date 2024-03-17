@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* nav bar start  */
+nav {
+  background-color: #000000;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  line-height: 50px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.left-content {
+  display: flex;
+}
+.menubar i {
+  margin-right: 25px;
+  margin-left: 5px;
+}
+.subscribe-to-nl {
+  display: flex;
+}
+.subscribe-to-nl i {
+  margin-right: 10px;
+}
+
+.mid-content {
+  margin-left: 30%;
+  margin-right: 20%;
+}
+.mid-content h1 {
+  font-size: 34px;
+  color: white;
+}
+.subscribe-button {
+  background-color:red;
+  height: 32px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 0px 10px 10px;
+  border-radius: 8px;
+}
+.right-content {
+  display: flex;
+}
+.sign-in {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.sign-in,
+.subscribe-button,
+.search,
+.menubar i,
+.subscribe-to-nl ,
+.list div,
+.premium-content h3:hover {
+  cursor: pointer;
+}
+/* nav bar end  */
+
+/* breakingnews-section start  */
+.breakingnews {
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.br-news:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.br-news span h5:hover {
+  text-decoration: none;
+}
+
+.br-news h4 {
+  margin: 7px;
+}
+.breakingnews-btn {
+  background-color: red;
+  width: 68px;
+  margin: 20px;
+  padding: 2px;
+  color: white;
+}
+
+/* breakingnews-section end  */
+
+/* newforyou styling start */
+.new-for-you {
+  margin-top: 70px;
+  display: flex;
+}
+.larger-img {
+  height: 60%;
+  width: 60%;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+.sign-btn {
+  background-color: #007ac8;
+  ;
+  width: 130px;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 40%;
+}
+.sign-btn:hover{
+  cursor: pointer;
+}
+.main-content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.premium{
+  margin-right: 50px;
+}
+.premium-content{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+.premium-content img{
+  height: 80px;
+  width: 100px;
+  margin-left: 10px;
+}
+.img-description h2{
+  margin-left: 20px;
+  margin-top: 10px;
+  text-align: left;
+}
+.img-description h4{
+  text-align: left;
+  margin-top: 20px;
+}
+.img-description{
+  margin-bottom: 40px;
+}
+/* newforyou styling end */
+
+/* footer styling start  */
+.footer{
+  margin-top: 20px;
+  
+}
+.list .forbes{
+  font-size: 25px;
+}
+.list{
+  margin-top: 50px;
+
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+li{
+  list-style: none;
+}
+.bold-line{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: black;
+  height: 3px;
+  width: 100%;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-evenly;
+}
+.end-section{
+  margin-top: 15px;
+  text-align: center;
+}
+/* footer styling end */
